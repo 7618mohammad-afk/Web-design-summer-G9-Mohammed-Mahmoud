@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-design-summer </title>
+    <link rel="icon" href="image/5610944.png">
+</head>
+<body>
+    <fieldset>
+    <legend>Employee Details :</legend>
+    <form>
+        <div>
+            <label>First name :</label>
+            <input type="text" name="firstName" pattern="[A-Za-z]{1,100}"required>
+        </div>
+        <div>
+            <label>Last name :</label>
+            <input type="text" name="lastName"pattern="[A-Za-z]{5,}">
+        </div>
+        <div>
+            <label>Mobile Number :</label>
+            <input type="text" name="mobileNumber"pattern="01[0125][0-9]{8}" title="Please enter a valid 11-digit Egyptian phone number starting with 010, 011, 012, or 015.">
+        </div>
+        <div>
+            <label>courses:</label>
+            <input type="text" name="course" list="courses-list">
+            <datalist id="courses-list">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JS">
+                <option value="c++">
+                <option value="Python">
+            </datalist>
+        </div>
+    </form>
+</body>
+</html>

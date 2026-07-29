@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: black;
+}
+li{
+    list-style: none;
+    margin: 0% 5px;
+}
+hr{
+    width: 20%;
+    color: rgb(255,255,255);
+}
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: 0% 10%;
+}
+.text-cpital{
+    text-transform:uppercase;
+    font-weight:bold ;
+}
+.text-center{
+    text-align: center;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.card{
+    width: 40%;
+    margin-left: 10%;
+}
+.padding-tob-bottom{
+    padding: 2% 0%;
+}
+.margin-top-bottom{
+    margin: 5% 0%;
+    ;
+}
+.card-margin-top{
+    margin-top: 4%;
+}
+
+.font-whight{
+    font-weight:lighter ;
+}
+.pord-inputForm{
+    border: 0;
+    border-bottom: 2px solid rgb(221, 219, 216);
+    margin: 2%;
+    width: 80%;
+}
+
+
+
+.bg-orange{
+    color: orange;
+}
+.submit{
+    width: 100%;
+    background-color: orange;
+    margin-top: 10%;
+
+}
+.background-img{
+    background-image: url(../image/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.overlay{
+    height: 100%;
+    background-color: #00000070;
+}
+
+.white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.grey{
+    color:  rgb(221, 219, 216);
+}
+.bg-grey-form{
+    background-color: rgb(213, 211, 211);
+    width: 100%;
+    background-position: top right;
+    background-size: 100% 138%;
+    margin-top: 0%;
+}
+
+.bg-dark{
+    color: #000;
+}
+.middle{
+    padding: auto;
+
+}
+
+.font-size{
+    font-size: 50px;
+}
+.font-size-p{
+    font-size: 25px;
+}
+.p-word-body{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.696);
+}
+.btn-style{
+    background-color: transparent;
+    border: solid;
+    padding: 3px 5px;
+    border-radius: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
