@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+   
+}
+nav{
+    position: sticky;
+    top: 0px;
+    padding-bottom: 1%;
+    padding-top: 1%
+}
+hr{
+    border: none;                 
+    height: 1px;                  
+    background-color: #fffcfc; 
+    margin: 20px 0;
+  
+   
+}
+
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.card{
+    width: 46%; 
+}
+.card-buy{
+     width: 30%;
+     margin-top: 20px;
+     border-radius: 10px;
+     display: inline-block;
+     box-shadow: 0px 0px 6px 2px grey;
+}
+.w-100{
+      width: 100%;
+}
+.w20{
+    width: 20%;
+}
+.p-big-top-bottom{
+    padding-top: 10%;
+    padding-bottom: 5%;
+     
+}
+.text-size{
+    font-size: 35px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.d-inline-block{
+    display: inline-block;
+}
+.p-top-bottom{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.m-top-bottom{
+    margin-top: 15px;
+    margin-bottom: 2%;
+}
+.child{
+  position: absolute;
+}
+.parent{
+    position: relative;
+}
+.bottom-right{
+    right: 0%;
+    bottom: 5%;
+    z-index: 1;
+
+}
+.middle-bottom{
+    left: 25%;
+    bottom: 5%;
+    z-index: 1;
+}
+
+.bg-orange{
+    background-color: orange !important;
+}
+.orange{
+    color: orange;
+}
+.bg-black{
+    background-color: #031039;
+}
+.c-white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-grey{
+    background-color: rgb(225, 219, 219);
+}
+.bg-image{
+    background-size: 80%;
+    background-image: url(../image/1.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.729);
+    background-position: right;
+
+}
+.num-row{
+    margin-bottom: 20%;
+}
+
+
+
+
+.btn-nav{
+    background-color:transparent;
+    padding: 4px 8px;
+    border: 0;
+}
+
+
+.li-nav{
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.fex-nav{
+    justify-content: space-between;
+    align-items: center;
+}
+.form-search{
+    padding-left: 3%;
+
+}
+.w-search{
+    width: 75% !important;
+}
+.btn-search{
+    width:25%;
+    text-align: center;
+}
+.num-lock {
+    justify-content: space-evenly;
+    float:right
+}
+.clear{
+    clear: both;
+}
+.arrow-down{
+    position: fixed;
+    left: 6%;
+    bottom: 5%;
+    z-index: 99999;
+
+}
+.vertical-text{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+.border-box{
+    border: 0  solid;
+    width: 45%;
+    text-align: center;
+    margin-right: 5%; 
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.View-all{
+    border: 0 solid;
+}
+.foatr-table{
+    padding-top: 40px;
+    padding-right:35px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
