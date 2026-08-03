@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-30{
+    width: 30%;
+}
+.p-top-bottom{
+    padding: 4% 2%;
+}
+.m-top-bottom-k{
+    margin-top: 10%;
+}
+.all-card{
+    position: relative;
+}
+
+.p-big-top-bottom{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.over-floa{
+    overflow: hidden;
+}
+
+
+.image-edit{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+.card-p{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    padding-top: 80%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.card-img{
+    position: relative;
+    z-index: 2;
+ 
+}
+.all-card:hover .card-img{
+    transform: scale(1.05) translate(-10px, -10px);
+}
+.all-card:hover .card-p{
+    transform: translate(25px, 60px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.bg-grey{
+    background-color: rgb(209, 209, 209);
+}
+.bg-white{
+    background-color: white;
+}
+.bg-teal{
+    background-color: teal;
+}
+.arrow{
+    position: absolute;
+    z-index: 2;
+    top: 2%;
+    right: 2%;
+}
+.z-index{
+    position: relative;
+    z-index: 2;
+    
+}
+
+
+.card-budy::before{
+    background-color: teal;
+    content: "";
+    width: 20%;
+    aspect-ratio: 1/1;
+    position: absolute;
+    right: -10%;
+    top: -11%;
+    z-index: 1;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-radius: 50%;
+    transition: 1s;
+}
+.card-budy:hover::before {
+    transform: scale(15);
+    box-shadow: 6% black;
+}
+.card-triangle::before{
+    background-color:#a81c60;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:110%;
+    top: 0%;
+    transition: 1s;
+}
+
+.card-triangle:hover::before {
+    transform:skewX(10deg) translateX(-20%);
+
+}
+.d-non{
+    display: none;
+}
+.card-triangle:hover .d-non {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
