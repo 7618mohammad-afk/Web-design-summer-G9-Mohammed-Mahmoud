@@ -1,0 +1,60 @@
+@media (max-width: 884px) {
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (max-width: 360px) {
+    .d-none-m{
+        display: none;
+    }
+    .d-none{
+        display: inline;
+    }
+    h1{
+        font-size: 40px;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

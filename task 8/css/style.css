@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+}
+img{
+    animation: anim-car 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.bg-black{
+    background-color: black;
+ 
+}
+.w-100{
+    width: 100%;
+}
+.m-top-bottom{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.p-top-bottom{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@keyframes anim-car {
+    from{
+        transform: translateX(0px);
+
+    }
+    to{
+        transform: translateX(1510px); 
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
