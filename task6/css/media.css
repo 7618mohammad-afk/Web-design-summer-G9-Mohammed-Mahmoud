@@ -1,9 +1,23 @@
 @media (max-width: 884px) {
-
- 
-    
-
-
+    .text-center-media{
+        text-align: center;
+        margin: auto;
+    }
+    .d-none-big-media{
+        display: none;
+    }
+    .w-big-48{
+        width: 100%;
+    }
+    .w-25{
+        width: 50%;
+    }
+    .m-footer{
+        margin-top: 50%;
+    }
+    .w-40{
+        width: 60%;
+    }
 
 
 
@@ -25,7 +39,7 @@
 
 }
 @media (max-width: 360px) {
-    .d-none-m{
+    .d-none-media{
         display: none;
     }
     .d-none{
@@ -34,10 +48,24 @@
     h1{
         font-size: 40px;
     }
-   
-
-
-
+    .w-48{
+        width: 100%;
+    }
+    .text-center-media{
+        text-align: center;
+    }
+    .w-25{
+        width: 100%;
+    }
+    .m-footer{
+        margin-top: 120%;
+    }
+    .w-40{
+        width: 100%;
+    }
+    .w-24{
+        width: 50% ;
+    }
 
 
 

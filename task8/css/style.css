@@ -3,9 +3,36 @@
     padding: 0%;
     box-sizing: border-box;
     border: 0;
-    font-family: "Poppins", sans-serif;
 }
-img{
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+.card{
+    margin: auto;
+    border: 0 solid;
+    /* border-radius: 100px; */
+}
+.b-radius{
+    border-radius: 30px;
+}
+
+.anim-img{
     animation: anim-car 2s;
     animation-iteration-count: infinite;
 }
@@ -15,8 +42,25 @@ img{
     background-color: black;
  
 }
+.bg-grey{
+    background-color: grey;
+}
+.c-white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
 .w-100{
     width: 100%;
+}
+.h-100{
+    height: 100%;
+
+}
+.w-40{
+    width: 40%;
+
 }
 .m-top-bottom{
     margin-top: 10%;
@@ -25,6 +69,13 @@ img{
 .p-top-bottom{
     padding-top: 5%;
     padding-bottom: 5%;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    
 }
 
 @keyframes anim-car {
@@ -36,17 +87,101 @@ img{
         transform: translateX(1510px); 
     }
 } 
+.parent{
+    position: relative;
+}
+.children{
+    position: absolute;
+}
 
+.posit-h2-img{
+    bottom: 5%;
+    left:3% ;
 
+}
+.posit-icon{
+    bottom: 3%;
+    right: 5%;
+    border: 2px solid #81D4FA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 13px;
+    padding-left: 10px;
+    color: #81D4FA;
+}
+.p-icon{
+    bottom: 7%;
+    right: 30%;
+    font-size: 12px;
+    color: #81D4FA;
+}
 
+.border-circle{
+    width: 12%;
+    aspect-ratio: 1/1;
+    border: 0px solid;
+    border-radius: 50px;
+    padding-top: 3%;
+    padding-left: 2%;
+    color: #81D4FA;
+}
 
+.icon-big{
+    font-size: 70px;
+    padding-bottom: 5%; 
+}
+.back-posit{
+    top: 20%;
+    left: 15%;
+    padding-right: 5%;
+}
+.flip-card{
+    position: relative;
+    width: 350px;       
+    height: 550px;   
+    margin: auto;       
+    perspective: 1000px; 
+}
+.first-card , .second-card {
+    backface-visibility:hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.first-card{
 
+}
+.second-card{
+    position: absolute;
+    transform: rotateY(180deg);
 
+}
+.flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;   
+    transform-style: preserve-3d; 
 
+}
 
-
-
-
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.animation-h2{
+    animation: top 3s;
+}
+@keyframes top {
+    from{
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 
 
 

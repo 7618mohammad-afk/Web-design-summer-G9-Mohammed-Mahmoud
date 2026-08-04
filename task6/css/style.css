@@ -16,8 +16,10 @@ a{
 nav{
     position: sticky;
     top: 0px;
+    z-index: 99;
     padding-bottom: 1%;
     padding-top: 1%
+
 }
 h1{
     font-size: 60px;
@@ -40,6 +42,11 @@ h1{
     flex-wrap: wrap;
    
 }
+.d-flex-non-wrap{
+    display: flex;
+    justify-content: space-between;
+
+}
 .m-big-top-bottom{
     margin-top: 10%;
     margin-bottom: 10%;
@@ -47,6 +54,21 @@ h1{
 .m-top-bottom{
     margin-top: 2%;
     margin-bottom: 2%;
+}
+.m-bottom{
+    margin-bottom: 5% !important;
+}
+.m-auto{
+    margin: auto;
+}
+.p-big-tob-bottom{
+    padding-top: 8%;
+    padding-bottom: 5%;
+
+}
+.p-tob-bottom{
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .t-center{
     text-align: center;
@@ -57,27 +79,117 @@ h1{
 .d-none{
     display: none;
 }
-
-
-
-
-
-.w-30{
-    width: 30%;
+.w-100{
+    width: 100%;
+}
+.w-24{
+    width: 24%;
+}
+.w-25{
+    width: 25%;
+}
+.w-40{
+    width: 40%;
+}
+.w-48{
+    width: 48%;
+}
+.w-90{
+    width: 90%;
+}
+.w-10{
+    width: 10%;
 }
 
 
+.w-45{
+    width: 45%;
+}
+.border-leaf{
+    width: 35px;
+    aspect-ratio: 1/1;
+    border: 0px solid;
+    border-radius: 8px;
+    padding-top: 3%;
+    padding-left: 2%;
+
+
+}
+.p-small{
+    font-size: 9px;
+}
+
 .bg-grey{
-    background-color: gray;
+    background: #F4F4F4;
+
+}
+.bg-green{
+    background-color:#285E67;
+}
+.c-green{
+    color: #285E67;
+}
+.bg-white{
+    background-color: white;
+}
+.c-white{
+    color: white;
+}
+.c-black{
+    background-color: black;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-transparent{
+    background-color: transparent !important;
+}
+.bg-img{
+    width: 100%;
+    background-image: url(../image/6ffa38c75963c1395d4cd22dd87078f89d5c9065.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .btn{
     padding: 2% 12%;
     border-radius: 50px;
+
 }
-
-
-
-
+.btn-border{
+    border: 2px solid white;
+}
+.border-radius{
+    border-radius: 50% !important;
+}
+.icon-rose{
+    width: 30px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 2px solid #285E67;
+    padding-left: 2px;
+}
+.bg-img-icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 11px;
+    padding-left: 11px;
+}
+.parent{
+    position: relative;
+}
+.childe{
+    position: absolute;
+    left: 12%;
+    width: 77%;
+    z-index: 1;
+}
+.m-footer{
+    margin-top: 20%;
+}
 
 
 
